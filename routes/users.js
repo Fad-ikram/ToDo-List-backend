@@ -9,7 +9,7 @@ const {
   signInUser,
   getUserData,
 } = require("../controller/userController");
-const { isAuthenticated } = require("../middleware/middlewares");
+const { isAuthenticated } = require("../midlleware/midllewares");
 
 // Get user information
 userRouter.get("/", getUserInfo);
