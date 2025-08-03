@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const userRouter = require("./routes/users");
 const cors = require("cors");
 const app = express();
-const { logger, isAuthenticated } = require("./middleware/middlewares");
+const { logger, isAuthenticated } = require("./midlleware/midllewares");
 
 // to use env variables
 require('dotenv').config();
