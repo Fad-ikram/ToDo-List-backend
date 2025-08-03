@@ -11,7 +11,16 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "express": "^5.1.0",
     "mongoose": "^8.17.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fad-ikram/ToDo-List-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fad-ikram/ToDo-List-backend/issues"
+  },
+  "homepage": "https://github.com/Fad-ikram/ToDo-List-backend#readme"
 }
